@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.proit.admeads">
+
+    <application
+        android:hardwareAccelerated="true">
+        <activity
+            android:name=".AdMeInterstitialActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_ad_me_interstitial"
+            android:theme="@style/Theme.AdMe.NoActionBar" />
+    </application>
+
+</manifest>
